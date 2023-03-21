@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include("./partials/head") %>
+
+  <body>
+    <div id="app_profile">
+
+      <div class="content_form_profile">
+        <a class="links" id="paraprofile"></a>
+        <a class="links" id="paralogin"></a>
+        <h1 class="profile_form_title">
+          Editar informações pessoais
+        </h1>
+        <form method="post" action="user/profiler">
+          <div class="profile_avatar">
+            <img id="profile_avatar" src="/images/avatar/avatar" alt="profile avatar">
+            <span>Trocar avatar</span>
+          </div>
+          <div id="firstname">
+            <label for="firstname">Nome</label>
+            <input id="firstname" name="firstname" required="required" type="text" placeholder="nome" />
+          </div>
+
+          <div id="lastname">
+            <label for="lastname">Sobrenome</label>
+            <input id="lastname" name="lastname" required="required" type="text" placeholder="último nome" />
+          </div>
+          <div>
+            <label for="email">Seu melhor e-mail</label>
+            <input id="email" name="email" required="required" type="email" placeholder="contato@mail.com" />
+          </div>
+          <h2 class="profile_form_title">Atualizar senha</h2>
+          <div>
+            <label for="password">Senha Atual</label>
+            <input id="password" name="password" required="required" type="password"
+              placeholder="Crie uma senha forte" />
+          </div>
+
+          <div>
+            <label for="password_set">Nova senha</label>
+            <input id="password_set" name="password_set" required="required" type="password"
+              placeholder="Repita aqui a senha criada" />
+          </div>
+
+          <div>
+            <label for="password_set_new">Repita a senha</label>
+            <input id="password_set_new" name="password_set" required="required" type="password"
+              placeholder="Repita aqui a senha criada" />
+          </div>
+
+          <div>
+            <input type="submit" value="Atualizar" />
+          </div>
+
+          <div class="link">
+            <a href="/home">Home</a>
+          </div>
+        </form>
+      </div>
+
+  </body>
+
+</html>

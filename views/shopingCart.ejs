@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include("./partials/head") %>
+
+  <body>
+
+    <main class="cart_container">
+
+      <h1 class="cart_heading">
+        <ion-icon name="-outline"></ion-icon> Finalizar pedido
+      </h1>
+
+      <div class="cart_item-flex">
+
+        <section class="cart_checkout">
+
+          <h2 class="cart_section-heading">Detalhes do pagamento</h2>
+
+          <div class="cart_payment-form">
+
+            <div class="cart_payment-method">
+
+              <button class="cart_method selected">
+                <ion-icon name="card"></ion-icon>
+
+                <span>Cartão de Crédito</span>
+
+                <ion-icon class="cart_checkmark fill" name="checkmark-circle"></ion-icon>
+              </button>
+
+              <button class="cart_method">
+                <ion-icon name="logo-paypal"></ion-icon>
+
+                <span>PayPal</span>
+
+                <ion-icon class="cart_checkmark" name="checkmark-circle-outline"></ion-icon>
+              </button>
+
+            </div>
+
+            <form action="#">
+
+              <div class="cart_cardholder-name">
+                <label for="cardholder-name" class="cart_label-default">Nome impresso no cartão</label>
+                <input type="text" name="cardholder-name" id="cart_cardholder-name" class="cart_input-default">
+              </div>
+
+              <div class="cart_card-number">
+                <label for="cart_card-number" class="cart_label-default">Número do cartão</label>
+                <input type="number" name="number" id="cart_card-number" class="cart_input-default">
+              </div>
+
+              <div class="cart_input-flex">
+
+                <div class="cart_expire-date">
+                  <label for="cart_expire-date" class="cart_label-default">Expira em:</label>
+
+                  <div class="cart_input-flex">
+
+                    <input type="number" name="day" id="cart_expire-date" placeholder="31" min="1" max="31"
+                      class="cart_input-default">
+                    /
+                    <input type="number" name="month" id="cart_expire-date" placeholder="12" min="1" max="12"
+                      class="cart_input-default">
+
+                  </div>
+                </div>
+
+                <div class="cart_cvv">
+                  <label for="cart_cvv" class="cart_label-default">CVV</label>
+                  <input type="number" name="cvv" id="cart_cvv" class="cart_input-default">
+                </div>
+
+              </div>
+
+            </form>
+
+          </div>
+
+          <button class="cart_btn btn-primary">
+            <b>SubTotal</b> R$ <span id="cart_payAmount">27 000,00</span>
+          </button>
+
+        </section>
+
+
+        <section class="cart">
+
+          <div class="cart-item-box">
+
+            <h2 class="cart_section-heading">Resumo do Pedido</h2>
+
+            <div class="cart_product-card">
+
+              <div class="cart_card">
+
+                <div class="cart_img-box">
+                  <img src="./images/frota/moto-zero-00.png" alt="" width="80px" class="product-img">
+                </div>
+
+                <div class="cart_detail">
+
+                  <h4 class="cart_product-name">
+                    item 01
+                  </h4>
+
+                  <div class="cart_wrapper">
+
+                    <div class="cart_product-qty">
+                      <button id="cart_decrement">
+                        <ion-icon name="remove-outline"></ion-icon>
+                      </button>
+
+                      <span id="cart_quantity">1</span>
+
+                      <button id="cart_increment">
+                        <ion-icon name="add-outline"></ion-icon>
+                      </button>
+                    </div>
+
+                    <div class="cart_price">
+                      $ <span id="cart_price">
+                        >
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <button class="cart_product-close-btn">
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </div>
+
+            <div class="cart_product-card">
+
+              <div class="cart_card">
+
+                <div class="cart_img-box">
+                  <img src="./images/frota/moto-zero-00.png" alt="" width="80px" class="product-img">
+                </div>
+
+                <div class="cart_detail">
+
+                  <h4 class="cart_product-name">
+                    item 02
+                  </h4>
+
+                  <div class="cart_wrapper">
+
+                    <div class="cart_product-qty">
+                      <button id="cart_decrement">
+                        <ion-icon name="remove-outline"></ion-icon>
+                      </button>
+
+                      <span id="cart_quantity">1</span>
+
+                      <button id="cart_increment">
+                        <ion-icon name="add-outline"></ion-icon>
+                      </button>
+                    </div>
+
+                    <div class="cart_price">
+                      $ <span id="cart_price">
+                        price
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <button class="cart_product-close-btn">
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="cart_wrapper">
+
+            <div class="cart_discount-token">
+
+              <label for="cart_discount-token" class="cart_label-default">Código promocional ou cartão-presente</label>
+
+              <div class="cart_wrapper-flex">
+
+                <input type="text" name="discount-token" id="cart_discount-token" class="cart_input-default">
+
+                <button class="cart_btn btn-outline">Aplicar</button>
+
+              </div>
+
+            </div>
+
+            <div class="cart_amount">
+
+              <div class="cart_subtotal">
+                <span>Subtotal</span> <span>R$ <span id="cart_subtotal">
+                    sub_total
+                  </span></span>
+              </div>
+
+              <div class="cart_tax">
+                <span>Impostos</span> <span>$ <span id="cart_tax">0.10</span></span>
+              </div>
+
+              <div class="cart_shipping">
+                <span>Shipping/Entrega</span> <span>$ <span id="cart_shipping">2 000.00</span></span>
+              </div>
+
+              <div class="cart_total">
+                <span>Total</span> <span>$ <span id="cart_total">R$ 27 000.00</span></span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+        <a href="/home" id="cart_home-button">
+          <h3>Voltar a navegação</h3>
+        </a>
+      </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,158 @@
+  /*LOGIN*/
+
+  #app_login {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /*Login apt daqui*/
+
+
+  .content_form_login {
+    box-shadow: 0 3px 10px hsl(0, 0%, 37%);
+    margin: 6vw 70vw 0 70vw;
+  }
+
+  #minimal_logo {
+    position: relative;
+    padding: 20px 0 0 38px;
+  }
+
+  .login_form {
+    background: #f2f2f2;
+    width: 550px;
+    height: 500px;
+    border-radius: 5%;
+  }
+
+  .content_form_login h1 {
+    position: relative;
+    font-size: 36px;
+    padding: 20px 0 0 80px;
+    font-weight: bolder;
+    color: #134aff;
+  }
+
+  .content_form_login input {
+    margin-left: 20px;
+    outline: none;
+    background: #f3f3f3;
+  }
+
+  .content_form_login input:not([type="checkbox"]) {
+    width: 80%;
+    margin-top: 4px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  .content_form_login input[type="submit"] {
+    width: 90px !important;
+    height: 25px;
+    cursor: pointer;
+    background: #134aff;
+    padding: 2px 2px;
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    margin: 25px 15px 15px 100px;
+    text-align: center;
+    text-shadow: 0 1px 1px #333;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+  }
+
+  .content_form_login input[type="submit"]:hover {
+    background: #0dc1e0;
+    color: #aaf2f2;
+  }
+
+  .content_form_login input[type="checkbox"]:checked {
+    border-style: solid #00eeff;
+  }
+
+  .login_label_username label {
+    margin-left: 25px;
+    color: #7f7f7f;
+  }
+
+  .login_label_pwd label {
+    margin-left: 25px;
+    color: #7f7f7f;
+  }
+
+  .login_chkbx {
+    position: relative;
+    color: #7f7f7f;
+    left: 2px;
+
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+  }
+
+  #manterlogado {
+    position: relative;
+    width: 10px;
+  }
+
+  #lb_manterlogado {
+    position: relative;
+    font-size: small;
+    color: #7f7f7f;
+    margin-left: 1px;
+  }
+
+  .login_chkbx a {
+    position: relative;
+    text-decoration: none;
+    color: #7f7f7f;
+    left: 20px;
+    border-radius: 0 0 5px 5px #00b6e4;
+  }
+
+  .login_a_icons {
+    margin: 0 0 0 55px;
+  }
+
+
+  .login_a_icons>a>img {
+    width: 40px;
+    margin: 5px 10px 0 10px;
+  }
+
+  .link {
+    position: relative;
+    color: #7f7c7c;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .link a {
+    font-weight: bold;
+    padding: 6px;
+    color: #134aff;
+    margin-left: 10px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    text-decoration: none;
+  }
+
+  .content_form_login a:hover {
+    color: #39bfd7;
+    background: transparent;
+    font-size: 14px;
+    border: transparent solid #4ab3c6;
+  }
+
+  /*fim app login*/

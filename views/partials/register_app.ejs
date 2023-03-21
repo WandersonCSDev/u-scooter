@@ -1,0 +1,51 @@
+<div id="app_cadastro">
+
+  <div class="content_form_cadastro">
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+
+
+    <form method="post" action="user/register">
+      <div class="cad_title">
+        <img id="minimal_logo" src="/images/minimal_logo.svg" alt="u-scooter logo">
+        <h1 class="cad_form_title">
+          Cadastre-se
+        </h1>
+      </div>
+      <div id="firstname">
+        <label for="firstname">Nome</label>
+        <input id="firstname" name="firstname" required="required" type="text" placeholder="nome" />
+      </div>
+
+      <div id="lastname">
+        <label for="lastname">Sobrenome</label>
+        <input id="lastname" name="lastname" required="required" type="text" placeholder="último nome" />
+      </div>
+
+      <div>
+        <label for="email">Seu melhor e-mail</label>
+        <input id="email" name="email" required="required" type="email" placeholder="contato@mail.com" />
+      </div>
+
+      <div>
+        <label for="password">crie uma senha</label>
+        <input id="password" name="password" required="required" type="password" placeholder="Crie uma senha forte" />
+      </div>
+
+      <div>
+        <label for="password_set">Repita a senha</label>
+        <input id="password_set" name="password_set" required="required" type="password"
+          placeholder="Repita aqui a senha criada" />
+      </div>
+
+      <div>
+        <input type="submit" value="Cadastrar" />
+      </div>
+
+      <div class="link">
+        Já tem conta?
+        <a href="/login"> Ir para Login </a> |
+        <a href="/home">Home</a>
+      </div>
+    </form>
+  </div>

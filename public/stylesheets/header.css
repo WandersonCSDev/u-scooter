@@ -1,0 +1,61 @@
+/*HEADER*/
+
+.header-container {
+  height: 30vh;
+  margin: 0 0 0 0;
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0px;
+}
+
+.header-img-logo {
+  position: relative;
+  top: 4vh;
+  left: 2vw;
+}
+
+.header-img-logo img {
+  width: 300px;
+}
+
+.header-nav-bar {
+  position: relative;
+  width: 80%;
+  padding: 11vh 0 0 2vw;
+  font-size: 20px;
+}
+
+.header-nav-bar a {
+  color: #f0ffff;
+  text-decoration: none;
+  font-size: larger;
+  text-shadow: 1px 2px 3px #cdcef4;
+  padding: 0px 4vw 1px;
+}
+
+.header-left-itens-login {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0vw;
+  justify-content: center;
+}
+
+
+#header-login {
+
+  padding: 4vh 4vw 0vw;
+}
+
+#header-login>img {
+  width: 40px;
+  margin: 0vh 0 0 2vw;
+}
+
+#header-login>a {
+  color: #f0ffff;
+  font-size: 20px;
+  margin: 38vh 0 0 1.6vw;
+  text-decoration: none;
+  text-shadow: 1px 2px 3px #eccef4;
+}

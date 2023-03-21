@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<%- include("./partials/head") %>
+
+  <body>
+    <%- include("./partials/header") %>
+      <div class="contatos-container">
+        <div id="contatos">
+          <img src="/images/frota/moto-zero-12.png" alt="moto eletrica">
+        </div>
+        <form name="contato">
+
+          <h1>Fale com a gente!</h1>
+          <label for="nome">Nome</label> <br>
+          <input type="text" id="nomeid" placeholder="Primeiro nome" required="required" name="nome" /> <br>
+
+          <label for="sobrenome">Último nome</label> <br>
+          <input type="text" id="sobre-nomeid" placeholder="Último nome" required="required" name="sobrenome" /> <br>
+
+          <label for="fone">Fone</label> <br>
+          <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" /> <br>
+
+          <label for="email">Email</label> <br>
+          <input type="email" id="emailid" placeholder="exemplo@mail.com" name="email" /> <br>
+          <label for="message">Mensagem</label> <br>
+          <textarea placeholder="Deixe sua mensagem" name="message"></textarea> <br>
+
+          <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+        </form>
+
+
+
+      </div>
+
+      <%- include("./partials/footer") %>
+  </body>
+  <script>
+    function Enviar() {
+
+      var nome = document.getElementById("nomeid");
+
+      if (nome.value != "") {
+        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+      }
+
+    }
+  </script>
+
+</html>

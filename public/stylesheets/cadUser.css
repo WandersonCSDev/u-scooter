@@ -1,0 +1,92 @@
+/*app CADASTRO*/
+#app_cadastro {
+  display: flex;
+  justify-content: center;
+}
+
+.cad_form_title {
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 0 0 0 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #134aff;
+}
+
+#app_cadastro input {
+  margin: 1px 0 0 50px;
+  outline: none;
+  background: #f3f3f3;
+}
+
+#app_cadastro input:not([type="checkbox"]) {
+  width: 70%;
+  margin-top: 4px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  border-radius: 25px;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#app_cadastro input[type="submit"] {
+  width: 100px !important;
+  height: 25px;
+  cursor: pointer;
+  background: #134aff;
+  padding: 2px 2px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 33%;
+  text-align: center;
+  text-shadow: 0 1px 1px #333;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+}
+
+.content_form_cadastro {
+  box-shadow: 0 3px 10px #5f5f5f;
+  margin-top: 5vh;
+  border-radius: 10%;
+}
+
+
+.content_form_cadastro>form {
+  position: inherit;
+  width: 400px;
+  height: 535px;
+  border-radius: 5%;
+  background: #f2f2f2;
+}
+
+
+
+#app_cadastro input[type="submit"]:hover {
+  background: #0dc1e0;
+  color: #aaf2f2;
+}
+
+.footer #app_cadastro input[type="checkbox"]:checked {
+  border-style: solid rgb(0, 238, 255);
+}
+
+#app_cadastro label {
+  margin-left: 65px;
+  font-size: smaller;
+  color: #7f7f7f;
+}
+
+#app_cadastro a:hover {
+  color: #39bfd7;
+  background: transparent;
+  font-size: 14px;
+  border: transparent solid #4ab3c6;
+}

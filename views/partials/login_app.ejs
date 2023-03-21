@@ -1,0 +1,51 @@
+<div id="app_login">
+
+  <div class="content_form_login">
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+
+
+    <form class="login_form" method="post" action="user/login">
+      <div class="login_title">
+        <img id="minimal_logo" src="/images/minimal_logo.svg" alt="u-scooter logo">
+        <h1 class="form_title">
+          Login
+        </h1>
+      </div>
+      <div class="login_label_username">
+        <label for="username">E-mail do usuário</label> <br>
+        <input name="username" required="required" type="text" placeholder="digite seu e-mail" />
+      </div>
+
+      <div class="login_label_pwd">
+        <label for="email_login">Senha</label> <br>
+        <input name="email_login" required="required" type="password" placeholder="digite sua senha" />
+      </div>
+
+      <div class="login_chkbx">
+        <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+        <label id="lb_manterlogado" for="manterlogado">Manter logado?</label>
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+
+      <div class="login_btn_submit">
+        <input type="submit" value="Login" />
+      </div>
+
+      <div class="login_a_icons">
+        <a href=""><img src="/images/google.png" alt=""></a>
+        <a href=""><img src="/images/facebook.png" alt=""></a>
+        <a href=""><img src="/images/twitter.png" alt=""></a>
+      </div>
+
+      <div class="link">
+        Ainda não tem uma conta?<br>
+        <a href="/register">Cadastre-se</a> |
+        <a href="/home">Home</a>
+      </div>
+    </form>
+
+
+  </div>
+
+</div>

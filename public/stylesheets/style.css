@@ -1,0 +1,106 @@
+/*FONTES*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+3:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open sans-serif, "Source Sans 3";
+}
+
+/*ESTILOS GERAIS*/
+body {
+  background: linear-gradient(to right, #770ee6 30%, #667eea 80%, #B073F0 100%);
+  background-size: 400% 400%;
+  animation: backgroundTransition 9s ease-in-out infinite;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-evenly;
+}
+
+.top-button div {
+  position: relative;
+  border: none !important;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.top-button img {
+  width: 50px;
+  offset-position: 0;
+}
+
+.sector-title {
+  border: 2px solid #70cbcb;
+  border-radius: 10px;
+  margin: 20px 40px 0px 40px;
+  padding: 2px 2px 2px 2px;
+  width: 450px;
+  height: 60px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 45px;
+}
+
+
+
+@keyframes backgroundTransition {
+  0% {
+    background-position: 0% 80%;
+  }
+
+  50% {
+    background-position: 80% 100%;
+  }
+
+  100% {
+    background-position: 0% 90%;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+  .wrapper {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 359px) {
+  .header-container {
+    background-size: contain;
+    width: 100%;
+    height: 47vh;
+  }
+
+  .header-nav-bar {
+    display: none;
+  }
+
+  .header-left-items-login {
+    display: none;
+  }
+
+  .header-img-logo>img {
+    position: relative;
+    width: 180px;
+    top: -6vh;
+    left: 1vw;
+  }
+
+
+  @media(min-width: 481px) {}
+
+
+  @media (min-width:650px) {}
+
+}
