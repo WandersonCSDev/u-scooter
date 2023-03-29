@@ -20,8 +20,8 @@
 }
 
 .checkbox .trace {
-  width: 40px;
-  height: 5px;
+  width: 50px;
+  height: 8px;
   background-color: #6d89ed;
   position: absolute;
   border-radius: 4px;
