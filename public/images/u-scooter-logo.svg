@@ -7,9 +7,9 @@
    viewBox="0 0 192.73601 52.212818"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2 (56b05e47e7, 2022-06-09, custom)"
-   sodipodi:docname="desenho-2.svg"
-   inkscape:export-filename="desenho-2.png"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="u-scooter-logo.svg"
+   inkscape:export-filename="frota/ulogo.png"
    inkscape:export-xdpi="92.891426"
    inkscape:export-ydpi="92.891426"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,10 +28,10 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.22627417"
-     inkscape:cx="-141.42136"
-     inkscape:cy="-24.306796"
-     inkscape:window-width="1280"
-     inkscape:window-height="769"
+     inkscape:cx="37.565048"
+     inkscape:cy="-22.097087"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -90,30 +90,30 @@
        transform="matrix(0.40373652,0,0,0.48860428,52.325604,11.382842)"
        style="fill:#df64f3;fill-opacity:1;stroke:#6d89ed;stroke-opacity:1">
       <g
-         id="g6864">
+         id="g318"
+         transform="matrix(0.75513312,0,0,0.61005015,-27.174309,87.01351)">
         <path
-           style="fill:#f4decd;fill-opacity:1;stroke:#36363d;stroke-width:4.45486;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 22.778827,121.85575 162.415373,0.0388 c 16.82687,3.42059 20.842,39.74438 0.22416,47.71721 L 23.391817,168.9096 C 10.769246,166.49766 3.899312,133.15664 22.778827,121.85575 Z"
+           style="fill:#f4decd;fill-opacity:1;stroke:#36363d;stroke-width:14.5157;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M -63.164212,229.23672 466.6556,229.363 c 54.89142,11.13291 67.98929,129.35507 0.73125,155.30404 l -528.551409,-2.2853 c -41.176451,-7.85008 -63.587061,-116.36429 -1.999653,-153.14502 z"
            id="path1036-8"
-           sodipodi:nodetypes="ccccc"
-           transform="matrix(2.4768629,0,0,2.046646,-129.60335,-23.296651)" />
+           sodipodi:nodetypes="ccccc" />
         <path
-           style="fill:#363636;fill-opacity:1;stroke:#6d89ed;stroke-width:9.23478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m -65.443229,232.61829 386.528399,0.0701 c 40.04586,6.17635 49.60137,71.76407 0.53348,86.16011 l -385.603033,-1.26789 c -30.040159,-4.35509 -46.389737,-64.55698 -1.458846,-84.96232 z"
+           style="fill:#363636;fill-opacity:1;stroke:#6d89ed;stroke-width:13.3818;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -52.091549,238.99129 508.272899,0.11195 c 52.65907,9.86266 65.22427,114.59598 0.70151,137.5842 l -507.056072,-2.02462 c -39.501881,-6.9544 -61.001068,-103.08739 -1.918337,-135.67153 z"
            id="path1036"
            sodipodi:nodetypes="ccccc" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.496px;line-height:1.25;font-family:Uroob;-inkscape-font-specification:'Uroob, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#df64f3;fill-opacity:1;stroke:#6d89ed;stroke-width:1.7124;stroke-opacity:1"
-           x="-43.860218"
-           y="466.72488"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.587px;line-height:1.25;font-family:Uroob;-inkscape-font-specification:'Uroob, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#df64f3;fill-opacity:1;stroke:#6d89ed;stroke-width:2.66467;stroke-opacity:1"
+           x="-61.348438"
+           y="306.59875"
            id="text7957"
-           transform="matrix(1.6236106,-0.00101843,0.00121896,0.61591046,0,0)"><tspan
+           transform="matrix(0.88639111,-0.00186547,6.6547441e-4,1.1281688,0,0)"><tspan
              sodipodi:role="line"
              id="tspan7955"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.496px;font-family:Uroob;-inkscape-font-specification:'Uroob, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#df64f3;fill-opacity:1;stroke:#6d89ed;stroke-width:1.7124;stroke-opacity:1"
-             x="-43.860218"
-             y="466.72488">U-SCOOTER</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.587px;font-family:Uroob;-inkscape-font-specification:'Uroob, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#df64f3;fill-opacity:1;stroke:#6d89ed;stroke-width:2.66467;stroke-opacity:1"
+             x="-61.348438"
+             y="306.59875">U-SCOOTER</tspan></text>
       </g>
     </g>
   </g>

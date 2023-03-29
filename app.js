@@ -15,7 +15,7 @@ const session = require('express-session');
 
 database
   .sync()
-  .then(() => console.log(`Conectado ao DB: ${process.env.DB_NAME}🐳`));
+  .then(() => console.log(`Conectado ao DB: ${process.env.DB_NAME} 🖥️`));
 
 const app = express();
 
